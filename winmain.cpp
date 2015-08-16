@@ -2,6 +2,7 @@
 #include <windows.h>
 #include <math.h>
 
+
 namespace Unit {
 	typedef int Time;
 	typedef double PreciseTime;
@@ -28,6 +29,15 @@ struct PrecisePoint {
 	PrecisePoint() = default;
 	PrecisePoint(PrecisePoint const &base) = default;
 };
+
+class Trajectory {
+public:
+    virtual PrecisePoint at            (double) const = 0; 
+	virtual double       operator()    (double) const = 0;
+	virtual double       getTurningArg ()       const = 0;
+};
+
+#include "tileinfo.cpp"
 
 class Projectile {
     PrecisePoint apex;
