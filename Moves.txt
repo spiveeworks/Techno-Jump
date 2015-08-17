@@ -1,0 +1,117 @@
+
+TECHNO JUMP
+            (DISCLAIMER: THIS IS A DESIGN, N.Y.I.)
+
+
+
+::::::::::::::::::::
+:: CONTROL LAYOUT ::
+::::::::::::::::::::
+
+The controls of Techno Jump are intended to be half of the challenge, and so to facilitate players with varied backgrounds when it comes to control schemes most factors of the controls should be possible to customize.
+For example, making buttons act as toggles, or making controls reflect depending on direction.
+
+   _______I__
+   ______JKL
+Sh ZX_____
+Cn
+
+Puppet Actions
+Z: Foot, Jump + Tuck
+X: Hand, Interact, Grab + Pull
+
+Jumps are charge based, tucking and/or pulling will last as long as the button press does
+
+Movement Buttons
+J/L: Directional movement
+I/K: Lean back / forward respectively, (i.e. raise / lower head)
+
+Pressing directional buttons will cause the player to face in that direction
+Holding a directional button will start a run-up in that direction
+Switching directions while running will attempt to brake, and if sustained change directions
+
+
+
+::::::::::::
+:: Basics ::
+::::::::::::
+
+Jumping:
+
+Jumps are charge based, and jumps are triggered once the button has been let go of.
+The longer the charge, the higher the jump.
+By timing run-ups with jump-charges, different trajectories can be achieved.
+
+Tucking:
+
+Whenever air-borne, usually when jumping, Z can be held again to initiate a tuck.
+Tucking couples any angular momentum, allowing for spins to be achieved by those with too much spare time.
+Double-tapping Z can therefore act as a quick tuck-jump.
+
+Diving:
+
+Leaning forward (K or down) while running will cause a dive (think: throwing head down)
+Diving will not give you vertical momentum, but it will give you some spin.
+Since the character will spin in the air, a roll will automatically be triggered upon landing.
+By dropping from a heigh, and timing a dive when hitting the ground, fall damage won't be triggered by either action, since the land was diverted by the dive, and the dive was landed with a roll.
+
+Sliding:
+
+Leaning back (I or up) while running will cause a slide (head up)
+Diving and sliding each provide opportunities to maneuver through single-block spaces.
+
+Spins:
+
+Switching movement directions during the release of a jump or dive will add a 180 spin to the movement.
+By itself this has little effect, other than making extra work for any animator I ever comission.
+
+Flips:
+
+Leaning in either direction while a jump is released will trigger a flip.
+Usually flips will end badly, as careful tucking and charge timing is required to land them on the correct limbs.
+The one exception to this is the running front flip, which, if executed without tucking, will instead trigger a hand-spring.
+
+
+::::::::::::
+:: Vaults ::
+::::::::::::
+
+When jumping, if the character is about to bump into the top of an obstacle, a vault may be triggered.
+The following table demonstrates which vaults are triggered:
+
+==========================================
+| Mod    | Normal Jump  | Spinning Jump  |
+|--------+--------------+----------------|
+| None   | Speed Vault  | Turn Vault     |
+| Lean-B | Dash Vault   | Lazy Vault     |
+| Lean-F | Gate Vault*  | 360° Vault     |
+| Tuck   | Monkey Vault | Reverse Monkey |
+==========================================
+
+*If possible, the Gate Vault (rail-flip) may execute as a hand-spring vault.
+  Generally this will happen in the same circumstances under which a normal hand-spring would execute.
+
+Kong:
+
+Kong and variant vaults are performed by diving (K or down) over an obstacle without rotating enough to roll.
+Variants may become available using combinations of Z, X and I.
+
+:::::::::::::::::::::::::
+:: Climbing Techniques :: -- Incomplete
+:::::::::::::::::::::::::
+
+Grabbing:
+
+Pressing X near many objects will execute a grab, which often leads onto more useful moves.
+Grabbing a ledge for example, provides leverage over tall objects.
+Grabbing a ledge while moving fast will result in the first half of a cat.
+
+Pull + Muscle:
+
+Pressing X while in any of multiple hanging positions will 
+
+Climb:
+
+Pressing Z and X simultaneously from positions such as the cat hold will cause a powerful upward movement.
+Executing from a cat hold will finish a cat leap.
+
